@@ -1,0 +1,14 @@
+name: read_write_memory
+description: ReadWriteMemory Class to work with Windows process memory and hacking video games.
+version: 1.0.0
+homepage: https://github.com/blueboy-tm/read_write_memory
+
+environment:
+  sdk: '>=2.18.2 <3.0.0'
+
+dev_dependencies:
+  lints: ^2.0.0
+  
+dependencies:
+  ffi: ^2.0.1
+  win32: ^3.0.1
